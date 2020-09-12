@@ -1,0 +1,4 @@
+baseURL = "https://boehrsi.github.io/implementation-details-flutter/"
+languageCode = "en-us"
+title = "implementationDetails('flutter')"
+theme = "hugo-implementation-details"

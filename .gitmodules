@@ -1,0 +1,3 @@
+[submodule "themes/hugo-implementation-details"]
+	path = themes/hugo-implementation-details
+	url = https://github.com/Boehrsi/hugo-implementation-details

@@ -2,7 +2,7 @@
 name: Feature request - UI / template
 about: Suggest an idea for this project
 title: ''
-labels: UI, enhancement
+labels: enhancement, ui
 assignees: ''
 
 ---

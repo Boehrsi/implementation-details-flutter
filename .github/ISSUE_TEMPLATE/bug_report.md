@@ -7,14 +7,14 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-*A clear and concise description of what the bug is.*
-
 **Location of the bug**
 - UI / template or content
   - [ ] UI / template
-  - [ ] content
+  - [ ] Content
 - Link to the related page: 
+
+**Describe the bug**
+*A clear and concise description of what the bug is.*
 
 **Expected behavior**
 *A clear and concise description of what you expected to see.*

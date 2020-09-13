@@ -42,7 +42,7 @@ This project is community driven and will life from your contributions. Thanks f
 
 This project is currently maintained by [Boehrsi](https://github.com/Boehrsi).
 
-## Reviewers / team members
+### Reviewers / members
 
 - [Boehrsi](https://github.com/Boehrsi)
 

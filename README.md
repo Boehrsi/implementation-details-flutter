@@ -49,4 +49,4 @@ This project is currently maintained by [Boehrsi](https://github.com/Boehrsi).
 ## Resources 
 
 - Hugo theme: https://github.com/Boehrsi/hugo-implementation-details
-- Deployment: https://github.com/peaceiris/actions-gh-pages`hugo new --kind entry entries/my-post`
+- Deployment: https://github.com/peaceiris/actions-gh-pages

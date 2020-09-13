@@ -1,6 +1,6 @@
 # Flutter Implementation Details
 
-This repository is the source for [https://boehrsi.github.io/implementation-details-flutter/](https://boehrsi.github.io/implementation-details-flutter/). The aim of this project is to provide a community driven collection of best practices for the programming language Dart and the UI framework Flutter.  
+This repository is the source for [https://boehrsi.github.io/implementation-details-flutter/](https://boehrsi.github.io/implementation-details-flutter/). The aim of this project is to provide a community driven collection of best practices for the programming language [Dart](https://dart.dev/) and the UI framework [Flutter](https://flutter.dev/).  
 
 ## How to contribute / get invloved
 

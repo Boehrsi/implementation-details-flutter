@@ -1,34 +1,26 @@
 <!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"></head><body><aside><ul><li><a href=https://boehrsi.github.io/implementation-details-flutter/categories/async/>Async</a></li><li><a href=https://boehrsi.github.io/implementation-details-flutter/categories/bloc/>Bloc</a></li><li><a href=https://boehrsi.github.io/implementation-details-flutter/categories/quality/>Quality</a></li></ul></aside><nav><div class=logo><a href=https://boehrsi.github.io/implementation-details-flutter/>implementationDetails()</a></div><input type=checkbox id=toggle-nav onclick=toggleScrollingOnMobileNavigation()>
 <label for=toggle-nav class=toggle-nav-button><i class=material-icons>menu</i></label><ul><li><a href=https://boehrsi.github.io/implementation-details-flutter//about>About</a></li><li><a href=https://boehrsi.github.io/implementation-details-flutter//contribute>Contribute</a></li><li><a href=https://github.com/Boehrsi/implementation-details-flutter>View on GitHub</a></li><li class=toggled><a href=#>Imprint</a></li><li class=category-header>Categories</li><li class=category-entry><a href=https://boehrsi.github.io/implementation-details-flutter/categories/async/>Async</a></li><li class=category-entry><a href=https://boehrsi.github.io/implementation-details-flutter/categories/bloc/>Bloc</a></li><li class=category-entry><a href=https://boehrsi.github.io/implementation-details-flutter/categories/quality/>Quality</a></li></ul></nav><main><div class=breadcrumbs><div><a href=https://boehrsi.github.io/implementation-details-flutter//categories/quality>Quality</a></div></div><article class="card column-one"><div><header><h1>Underscore for unused parameters</h1></header><p class=sub-title>Last updated: 12.09.2020 - 16:00 by Boehrsi</p><p>Sometimes you have to deal with given functions, interface implementations or builders, with parameters you don&rsquo;t use. When utilizing those you can use an underscore to actively mark unneeded parameters as not used in your code. You can use multiple underscores if multiple parameters are unused.</p><div class=links><h4>Related links:</h4><ul><li><a href=https://codewithandrea.com/tips/2020-01-12-using-underscores-builder-arguments/>https://codewithandrea.com/tips/2020-01-12-using-underscores-builder-arguments/</a></li></ul></div></div></article><div><article class="card column-one"><div><header><h1>DO replace unused parameters with underscores</h1></header><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-dart data-lang=dart><span style=color:#66d9ef>return</span> MaterialApp(
-    ...
     localeResolutionCallback: (locale, _) { <span style=color:#75715e>// Good
 </span><span style=color:#75715e></span>        Intl.defaultLocale <span style=color:#f92672>=</span> locale.toString();
         <span style=color:#66d9ef>return</span> locale;
     },
-    ...
 );
 
 <span style=color:#66d9ef>return</span> MaterialApp(
-    ...
     localeResolutionCallback: (_, __) { <span style=color:#75715e>// Good
 </span><span style=color:#75715e></span>        <span style=color:#66d9ef>return</span> Locale(<span style=color:#e6db74>&#39;en&#39;</span>, <span style=color:#e6db74>&#39;&#39;</span>);
     },
-    ...
 );
 </code></pre></div></div></article><article class="card column-one"><div><header><h1>DON'T name unused paramters</h1></header><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-dart data-lang=dart><span style=color:#66d9ef>return</span> MaterialApp(
-    ...
     localeResolutionCallback: (locale, supportedLocales) { <span style=color:#75715e>// Bad, as supportedLocales is never used
 </span><span style=color:#75715e></span>        Intl.defaultLocale <span style=color:#f92672>=</span> locale.toString();
         <span style=color:#66d9ef>return</span> locale;
     },
-    ...
 );
 
 <span style=color:#66d9ef>return</span> MaterialApp(
-    ...
     localeResolutionCallback: (locale, supportedLocales) { <span style=color:#75715e>// Bad, as locale and supportedLocales are never used
 </span><span style=color:#75715e></span>        <span style=color:#66d9ef>return</span> Locale(<span style=color:#e6db74>&#39;en&#39;</span>, <span style=color:#e6db74>&#39;&#39;</span>);
     },
-    ...
 );
 </code></pre></div></div></article></div></main><footer><a href=#>Imprint</a></footer><link rel=stylesheet type=text/css href=https://boehrsi.github.io/implementation-details-flutter/scss/style.min.36d0ad7cdfa9f6c7e8deb8f1005ed8f77e545182960c82578447739ced2ca45e.css integrity="sha256-NtCtfN+p9sfo3rjxAF7Y935UUYKWDIJXhEdznO0spF4="><link rel=stylesheet type=text/css href=https://boehrsi.github.io/implementation-details-flutter//css/material-icons.css><script type=text/javascript src=https://boehrsi.github.io/implementation-details-flutter//js/base.js></script></body></html>

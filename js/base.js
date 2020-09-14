@@ -6,7 +6,7 @@ function toggleScrollingOnMobileNavigation() {
         main[0].setAttribute("style", "display: none");
         footer.setAttribute("style", "display: none");
     } else {
-        main[0].setAttribute("style", "display: block");
+        main[0].setAttribute("style", "display: flex");
         footer.setAttribute("style", "display: block");
     }
 } 

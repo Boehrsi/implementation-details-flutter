@@ -2,3 +2,7 @@ baseURL = "https://boehrsi.github.io/implementation-details-flutter/"
 languageCode = "en-us"
 title = "implementationDetails()"
 theme = "hugo-implementation-details"
+
+[params]
+    github = "https://github.com/Boehrsi/implementation-details-flutter"
+    imprint = ""

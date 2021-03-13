@@ -8,7 +8,8 @@ This project is community driven and will life from your contributions. Thanks f
 
 ### General requirements
 
-- A simple markdown editor or the [Hugo static site generator](https://gohugo.io/) as **extended** version (for local testing) 
+- A simple text / markdown editor 
+- [Hugo static site generator](https://gohugo.io/) as **extended** version (for local testing) 
 - GitHub Account
 - Be nice to other people
 - Be open for discussions
